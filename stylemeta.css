@@ -1,0 +1,97 @@
+body {
+    background-color:rgb(255, 255, 255);
+}
+header {
+    background-image: url(Imagenes/fondo\ inicial.png);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display:block;
+    align-items: center;
+}
+.hearder .meta {
+    display: contents;
+ }
+ .conte-meta {
+    padding: 40px 60px 100px 40px; 
+ }
+ .conte-meta p {
+    color:rgb(0, 0, 0);
+    font-size: 15px;
+    text-transform:uppercase;
+    font-weight: 100;
+    line-height: 40px;
+    text-align: center;
+ }
+ 
+.inicio {
+    background: rgb(0, 17, 255);
+    display: flex;
+    flex-wrap: wrap;
+}
+.inicio .contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px auto;
+}
+.inicio a {
+    color: #fff8f8;
+    text-decoration: none;
+    display: flex;
+    align-items: right;
+    text-align: right;
+    padding: 15px 25px;
+    transition: .3s ease all;
+    font-size: 18px;
+}
+.inicio a.activo,
+.inicio a:hover {
+    background: rgb(8, 8, 8);
+}
+.apli {
+    padding: 100px 0px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.met {
+    padding: 25px;
+    margin: 0px 10px;
+    box-shadow: 0px 0px 20px rgb(51, 58, 153);
+}
+.met img {
+    margin-top: 10px;
+}
+.met h3{
+    font-size: 20px;
+    color: black;
+    margin-bottom: 10px;
+}
+.service p{
+    color: darkgrey;
+    font-size: 10px;
+}
+.aplicacion {
+    padding: 100px 0px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.mtv {
+    padding: 25px;
+    margin: 0px 10px;
+    box-shadow: 0px 0px 20px rgb(51, 58, 153);
+}
+.mtv img {
+    margin-top: 10px;
+}
+.mtv h3{
+    font-size: 20px;
+    color: black;
+    margin-bottom: 10px;
+}
+.service p{
+    color: darkgrey;
+    font-size: 10px;
+}
